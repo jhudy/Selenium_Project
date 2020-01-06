@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import static junit.framework.TestCase.assertTrue;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class GoogleSearchTest {
 
@@ -29,6 +31,16 @@ public class GoogleSearchTest {
         searchBox.submit();
         Thread.sleep(3000);
         assertTrue(driver.findElement(videoLinkLocator).isDisplayed());
+    }
+
+    @Test
+    public void testGooglePageSeleniumIDE (){
+        driver.findElement(By.name("q")).click();
+        driver.findElement(By.name("q")).sendKeys("qa automation video");
+        driver.findElement(By.name("q")).submit();
+        //driver.findElement(By.name("btnK")).click();
+        //driver.findElement(By.cssSelector(".bkWMgd:nth-child(1) .r")).click();
+        assertThat(driver.findElement(By.cssSelector(".bkWMgd:nth-child(1) .LC20lb")).getText(), is("Automation Testing Tutorial for Beginners - YouTube"));
     }
 
     @After
