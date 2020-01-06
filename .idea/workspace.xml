@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12fe2907-f3ea-4bd4-963d-6a1b5e2715d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/NewTour_Automation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GoogleSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoogleSearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GoogleSearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GoogleSearchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NewTour_Automation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NewTour_Automation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,8 +41,8 @@
       <file leaf-file-name="NewTour_Automation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/NewTour_Automation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+            <state relative-caret-position="67">
+              <caret line="64" column="64" selection-start-line="64" selection-start-column="64" selection-end-line="64" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1525#1526#0" expanded="true" />
@@ -182,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NewTour_Automation.RegisterUser">
+  <component name="RunManager" selected="JUnit.NewTour_Automation.displaySignOffOption">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -237,6 +234,40 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="NewTour_Automation.SignOn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NewTour_Automation" />
+      <option name="METHOD_NAME" value="SignOn" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="NewTour_Automation.displaySignOffOption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NewTour_Automation" />
+      <option name="METHOD_NAME" value="displaySignOffOption" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -279,9 +310,13 @@
       <item itemvalue="JUnit.GoogleSearchTest" />
       <item itemvalue="JUnit.GoogleSearchTest.testGooglePageSeleniumIDE" />
       <item itemvalue="JUnit.NewTour_Automation.RegisterUser" />
+      <item itemvalue="JUnit.NewTour_Automation.SignOn" />
+      <item itemvalue="JUnit.NewTour_Automation.displaySignOffOption" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NewTour_Automation.displaySignOffOption" />
+        <item itemvalue="JUnit.NewTour_Automation.SignOn" />
         <item itemvalue="JUnit.NewTour_Automation.RegisterUser" />
         <item itemvalue="JUnit.GoogleSearchTest.testGooglePageSeleniumIDE" />
         <item itemvalue="JUnit.GoogleSearchTest" />
@@ -299,20 +334,11 @@
       <option name="presentableId" value="Default" />
       <updated>1576112447501</updated>
       <workItem from="1576112451394" duration="4209000" />
-      <workItem from="1578277172822" duration="7088000" />
+      <workItem from="1578277172822" duration="13148000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GoogleSearchTest - 2019.12.11 at 22h 19m 34s.xml">
-      <configuration name="GoogleSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoogleSearchTest - 2019.12.11 at 22h 22m 11s.xml">
-      <configuration name="GoogleSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoogleSearchTest_testGooglePageSeleniumIDE - 2020.01.05 at 22h 58m 00s.xml">
-      <configuration name="GoogleSearchTest.testGooglePageSeleniumIDE" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GoogleSearchTest_testGooglePageSeleniumIDE - 2020.01.05 at 23h 03m 18s.xml">
       <configuration name="GoogleSearchTest.testGooglePageSeleniumIDE" configurationId="JUnit" />
     </history-entry>
@@ -331,9 +357,21 @@
     <history-entry file="NewTour_Automation_RegisterUser - 2020.01.06 at 00h 25m 51s.xml">
       <configuration name="NewTour_Automation.RegisterUser" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NewTour_Automation_SignOn - 2020.01.06 at 13h 39m 49s.xml">
+      <configuration name="NewTour_Automation.SignOn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewTour_Automation_SignOn - 2020.01.06 at 13h 51m 32s.xml">
+      <configuration name="NewTour_Automation.SignOn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewTour_Automation_SignOn - 2020.01.06 at 14h 29m 57s.xml">
+      <configuration name="NewTour_Automation.SignOn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewTour_Automation_SignOn - 2020.01.06 at 14h 53m 58s.xml">
+      <configuration name="NewTour_Automation.SignOn" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11297000" />
+    <option name="totallyTimeSpent" value="17357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -435,8 +473,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/NewTour_Automation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+        <state relative-caret-position="67">
+          <caret line="64" column="64" selection-start-line="64" selection-start-column="64" selection-end-line="64" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1525#1526#0" expanded="true" />

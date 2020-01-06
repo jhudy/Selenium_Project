@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class NewTour_Automation {
     private WebDriver driver;
@@ -23,6 +24,14 @@ public class NewTour_Automation {
     By registerButtonLocator = By.name("register");
 
     By fontLocator = By.tagName("font");
+
+    By signOnLinkLocator = By.linkText("SIGN-ON");
+    By userNameSigOnLocator = By.name("userName");
+    By passwordSigOnLocator = By.name("password");
+    By submitButtonLocator = By.name("login");
+    By signOnImagePageLocator = By.xpath("//img[@src='/images/masts/mast_signon.gif']");
+
+    By signOffLinkLocator = By.linkText("SIGN-OFF");
 
     @Before
     public void setUp(){
@@ -51,6 +60,28 @@ public class NewTour_Automation {
 
         assertEquals("Note: Your user name is jhudy.",fonts.get(5).getText());
 
+    }
+
+    //verify that entering data user the page remains on SING-ON
+    @Test
+    public void SignOn(){
+        driver.findElement(signOnLinkLocator).click();
+        driver.findElement(userNameSigOnLocator).sendKeys("jhudy");
+        driver.findElement(passwordSigOnLocator).sendKeys("12345");
+        driver.findElement(submitButtonLocator).click();
+
+        assertNotNull(signOnImagePageLocator);
+
+    }
+
+    //verify that the Sign Off Option is displayed after register
+    @Test
+    public void displaySignOffOption(){
+        driver.findElement(registerLinkLocator).click();
+        driver.findElement(userNameLocator).sendKeys("jhudy2");
+        driver.findElement(registerButtonLocator).click();
+
+        assertNotNull(signOffLinkLocator);
     }
 
     @After
